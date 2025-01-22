@@ -1,0 +1,14 @@
+[package]
+name = "webgpu-poc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "=24.0.0"
+pollster = "0.3"
+instant = "0.1"
+log = "0.4"
+env_logger = "0.10"
+futures-intrusive = "0.5"
+async-trait = "0.1"
+
